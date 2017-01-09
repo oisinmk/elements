@@ -1,0 +1,337 @@
+/*---------------Body------------*/
+
+
+body    {
+            margin:auto;
+            width: 70%;
+            max-width: 750px;
+            min-width:320px;
+            font-size: 100%;
+            background: #212121;
+                    }
+p{
+
+  font-family: lato;
+  font-size: 1.5em;
+  color: #f6f6f6;
+
+}
+
+h2
+{
+  color: #f6f6f6;
+    font-family: 'Muli', sans-serif;
+    font-size: 3em;
+}
+h1
+{
+color: #f6f6f6;
+  font-family: 'Muli', sans-serif;
+  font-size: 3em;
+}
+.atom {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+  width: 200px;
+  height: 200px;
+  display: block;
+}
+
+.nucleus {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-top: -15px;
+  margin-left: -15px;
+	width: 30px;
+	height: 30px;
+  background: #f6f6f6;
+	border-radius: 100%;
+}
+
+.neutron1 {
+  position: relative;
+	width: 15px;
+	height: 15px;
+  top: -10px;
+  left: 25px;
+  background: #af6161;
+	border-radius: 100%;
+  animation: ne 2s linear infinite;
+}
+
+.neutron2 {
+  position: relative;
+	width: 15px;
+	height: 15px;
+  top: -10px;
+  left: 25px;
+  background: #54c6eb;
+	border-radius: 100%;
+  animation: ne 2s linear infinite;
+}
+.neutron3 {
+  position: relative;
+	width: 15px;
+	height: 15px;
+  top: -10px;
+  left: 25px;
+  background: #048A81;
+	border-radius: 100%;
+  animation: ne 2s linear infinite;
+}
+.elipsis {
+  position: absolute;
+  top: 0px;
+  left: 65px;
+	width: 65px;
+  height: 200px;
+  border: 5px solid #fff;
+  border-radius: 80px / 240px;
+}
+
+.elipsis:nth-of-type(2) {
+  -moz-transform: rotate(55deg);
+  -wekbit-transform: rotate(55deg);
+  transform: rotate(55deg);
+}
+
+.elipsis:nth-of-type(2) :first-child {
+  animation-delay: 0.4s;
+}
+
+.elipsis:nth-of-type(3) {
+  -moz-transform: rotate(55deg);
+  -weknit-transform: rotate(55deg);
+  transform: rotate(-55deg);
+}
+
+.elipsis:nth-of-type(3) :first-child {
+  animation-delay: 0.6s;
+}
+
+@keyframes ne {
+    0% { top: -10px; left:  25px; }
+    5% { top:   0px; left:  35px; }
+   10% { top:  10px; left:  45px; }
+   15% { top:  20px; left:  45px; }
+   20% { top:  30px; left:  55px; }
+   25% { top:  40px; left:  55px; }
+   30% { top:  90px; left:  60px; }
+   35% { top: 140px; left:  55px; }
+   40% { top: 160px; left:  45px; }
+   45% { top: 180px; left:  35px; }
+   50% { top: 200px; left:  25px; }
+   55% { top: 180px; left:  15px; }
+   60% { top: 160px; left:   5px; }
+   65% { top: 140px; left:  -5px; }
+   70% { top:  90px; left: -10px; }
+   75% { top:  40px; left:  -5px; }
+   80% { top:  30px; left:   0px; }
+   85% { top:  20px; left:   5px; }
+   90% { top:  10px; left:  15px; }
+   95% { top:   0px; left:  25px; }
+  100% { top: -10px; left:  25px; }
+}
+    .v1
+        {
+            font-family: 'Libre Baskerville', Georgia, serif;
+            line-height: 1.6em;
+
+        }
+
+    .v2
+        {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.6em;
+        }
+
+    .v3
+        {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.6em;
+        }
+
+
+/*---------------Type------------*/
+
+
+h1, h2, h3
+            {
+                font-weight: normal;
+            }
+
+        .dropcaps
+            {
+                float: left;
+                font-size: 5em;
+                padding-bottom: 12px;
+            }
+
+        .uppercase
+            {
+                text-transform: uppercase;
+            }
+
+        .indent
+            {
+                text-indent: 1.7em;
+            }
+
+/*---------------Version1------------*/
+
+
+    .v1 h1
+        {
+            font-size: 3.998em;
+            margin-top: 25px;
+            margin-bottom: 35px;
+            line-height: 1.2em;
+        }
+
+    .v1 h2
+        {
+            font-size: 1.999em;
+
+            line-height: 1.1em;
+        }
+
+    .v1 h3
+        {
+            margin-top: 4em;
+            font-size: 1em;
+            text-transform: uppercase;
+        }
+
+    .v1 .intro
+        {
+            font-size: 1.212em;
+            margin: 2.5em 0;
+            line-height: 1.6em;
+        }
+
+    .v1 blockquote
+        {
+            margin: 2.5em 0;
+            color: #888;
+            font-style: italic;
+            font-size: 1.3em;
+            line-height: 1.8em;
+            text-indent: -0.5em
+        }
+
+    .v1 cite
+        {
+            font-size: 0.8em;
+        }
+
+.firstcharacter
+{
+       float: left; color: #black; font-size: 70px; line-height: 50px; padding-top: 0px; padding-right: 5px; padding-left: 3px; font-family: baskerville; }
+
+/*---------------Version2------------*/
+
+
+    .v2 h1
+        {
+            font-size: 4em;
+            margin-top: 20px;
+            margin-bottom:40px;
+            line-height: 1.2em;
+        }
+
+    .v2 h2
+        {
+            font-size: 1.4em;
+            font-style: italic;
+        }
+
+    .v2 h3
+        {
+            margin-top: 4em;
+            font-size: 1em;
+            text-transform: uppercase;
+        }
+
+
+
+    .v2 .intro
+        {
+            margin: 2.5em 0;
+            font-size: 1.2em;
+            line-height: 1.4em;
+        }
+
+    .v2 blockquote
+        {
+            margin: 2.5em 0;
+            color: #888;
+            text-indent: -0.4em;
+            font-size: 1.2em;
+            line-height: 1.5em;
+        }
+
+    .v2 blockquote p
+        {
+            margin-bottom: 1em;
+        }
+
+    .v2 cite
+        {
+            font-size: 0.8em;
+        }
+
+
+/*---------------Version3------------*/
+
+
+    .v3 h1
+        {
+            font-family: 'Slabo 27px', serif;
+            font-size: 3.998em;
+            margin:0;
+        }
+
+    .v3 h2
+        {
+            font-family: 'Slabo 27px', serif;
+            font-style: italic;
+            margin-top:30px;
+        }
+
+    .v3 h3
+        {
+            text-transform: uppercase;
+            margin-bottom: 40px;
+        }
+
+    .v3 .intro
+        {
+            margin: 2.5em 0;
+            font-size: 1.2em;
+            line-height: 1.5em;
+        }
+
+    .v3 blockquote
+        {
+            font-family: 'Slabo 27px', serif;
+            margin: 2.5em 0 4em 0;
+            font-size: 1.4em;
+            line-height:1.5em;
+            color: #888;
+            text-indent: -0.4em
+        }
+
+    .v3 cite
+        {
+            font-size: 0.8em;
+        }
+
+        .intro
+        {
+
+          margin-top: 50%;
+        }

@@ -1,137 +1,142 @@
-
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
 }
+
 body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+
+
 }
-
-canvas
-{ display: block; vertical-align: bottom; }
-
-
-/* ---- particles.js container ---- */ 
-
-
-
-/* ---- stats.js ---- */ 
-
-h1
-{
-font-family: 'Titillium Web', sans-serif;
-    font-size: 6em;
-    text-align: center;
-    margin-top: 10%;
-    color: antiquewhite;
-  
-    align-content: center;
-    
-     z-index: 1;
-    
-    
-    
-    
-}
-
-
-h2
-{
-    
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 1.5em;
-    text-align: center;
-   
-    color: antiquewhite;
-  
-    align-content: center;
-    z-index: 1;
-    
-    
-}
-
-
-.mainContainer {
-  height: 100%;
-  display: block;
-}
-
-
-
- /* ---- particles.js container ---- */ 
-#particles-js{ position:absolute; width: 100%; height: 100%; background-color: #af6161; background-image: url(""); background-repeat: repeat; background-size: cover; background-position: 50% 50%; } /* ---- stats.js ---- */ 
-
-
-
-
-
-
-
-
-.navvy
-         
-{position: fixed; top: 0px;  z-index: 444;width:100%}
-   .navvy         
-{
-    list-style-type:none;
+section{
+    background-color: #cb3131;
+    height: 100%;
+    width: 100%;
     margin: 0;
-    padding: 0;
-    text-align: center;
-  word-spacing: 10em;
-   background-color:#3f3f3f;
-    
-    
+    float: left;
+    position: absolute;
+     cursor: pointer;
+     justify-content: center;
+   align-items: center;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
 }
 
 
 
-li {
-    
-   display:inline;
-    
-     overflow: hidden;
-  
-   
-    
-}
-
-li a {
-    display:inline-block;
-    color: #000000;
+.main{
+    width: 100%;
+    margin: 0;
+    height: 150px;
+    float: left;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-   font-family: 'Titillium Web', sans-serif;
-    font-size: 1.EM;;
-  font-weight: thin;
+    display: flex;
+
+    cursor: pointer;
     color: #f6f6f6;
-    
+    font-family: 'Muli', sans-serif;
+vertical-align: text-bottom;
+  -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+
+}
+#li
+{
+  height:150px;
+width:100%;
+background:#048A81;
+  text-align: center;
+
+
+
+
 }
 
-li a:hover {
-    background-color: #C9C9C9;
+#c{
+
+height:150px;
+  width:100%;
+  background:#54c6eb;
+    text-align: center;
+  }
+
+
+  #h{
+
+  height:150px;
+    width:100%;
+    background:#06d6a0;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+
+
+
+#fe{
+
+height:150px;
+  width:100%;
+  background:#8a89c0;
+    text-align: center;
+  }
+
+
+#mg
+{
+  height:150px;
+    width:100%;
+    background:#cda2ab;
+      text-align: center;
+
 }
 
 
 
 
+Sweep To Right */
+.hvr-sweep-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-property: ##E4C295;
+  transition-property: #E4C295;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-sweep-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #E4C295;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+  color: #E4C295;
+}
+.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*
